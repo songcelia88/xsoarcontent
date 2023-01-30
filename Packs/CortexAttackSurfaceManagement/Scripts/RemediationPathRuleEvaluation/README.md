@@ -1,4 +1,4 @@
-
+For a given alert and remediation path rules that are defined for that alert's attack surface rule, this takes each remediation path rule and looks at the rule criteria too see if the rule matches for the given alert. If multiple rules match, it will return the most recently created rule. This assumes that the rules passed in are filtered to correlate with the alert's attack surface rule.
 
 ## Script Data
 ---
